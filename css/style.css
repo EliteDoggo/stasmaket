@@ -157,10 +157,14 @@ select{
 .men,
 .other,
 .purchase{
-color: #656565;
-font-size: 14px;
-font-weight: bold;
-padding: 0 10px;
+	color: #656565;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 10px;
+}
+.nav-a{
+	text-decoration: none;
+	color: #656565;
 }
 .header-search{
 	display: -webkit-flex;
@@ -198,6 +202,10 @@ padding: 0 10px;
 	display: flex;
 	align-items: center;
 
+}
+.header-cart a{
+	line-height: 0px;
+	border:none;
 }
 .actions-ico{
 	background-color: #7db122;	
@@ -322,13 +330,110 @@ padding: 0 10px;
 /*end*/
 
 /* main start  */
+
 .featured-products-text{
+	padding: 50px 0 25px 0 ;
 	font-size: 24px;
-	
+	font-family: sans-serif;
+	color: #656565;
 }
-.featured-products{
+.main-content{
 	display: flex;
+	justify-content: space-between;
 }
+.main-content-left{
+	max-width: 757px;
+}
+.featured-products,
+.staff-picks ,
+.new-products{
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+}
+.featured-product,
+.staff-pick ,
+.new-product{
+	max-width:233px ;
+	background-color: #eff1f0;
+	width: 33%;
+}
+
+.main-content-right{
+	max-width: 233px;
+}
+.featured-glass{
+	position: relative;	
+}
+.check-it-out{
+	color:#fff;
+	position: absolute;
+	left:22%;
+	top:370px;
+	border:none;
+	background-color: #4cb1ca;
+	width: 134px;
+	height: 35px;
+}
+.check-it-out:hover{
+	cursor:pointer;
+}
+.points{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+.one-point{
+	padding: 5px;
+}
+.newsletters-signup{
+	padding-top: 30px;
+}
+.newsletters-signup-name{
+	font-size: 24px;
+	font-family: sans-serif;
+	color: #656565;
+	text-align: center;
+}
+.newsletters-signup-description{
+	font-size: 14px;
+	color: #656565;
+	text-align: center;
+	padding-top: 30px;
+
+}
+.newsletters-signup-input{
+	width:185px;
+	height: 30px;
+}
+.newsletters-signup-input-t{
+	display: flex;
+	justify-content:center;
+	padding-top: 30px;
+}
+
+.newsletters-signup-btn{
+	display: flex;
+	justify-content:center;
+	padding-top: 20px;
+}
+.Subscribe-btn{
+	color:#fff;
+	background-color: #7eb123;
+	height: 45px;
+	width: 110px;
+	border:none;
+}
+.Subscribe-btn:hover{
+	cursor:pointer;
+}
+
+/* end */
+
+
+/* f start */
+
+
 
 
 /* end */
