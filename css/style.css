@@ -9,7 +9,7 @@
 	box-sizing: border-box;
 }
 .container{
-	max-width: 1360px;
+	max-width: 1024px;
 	margin: 0 auto;
 	line-height: 24px;
 	font-size: 16px;
@@ -119,6 +119,7 @@ select{
 	justify-content: space-between;
 	flex-basis: 50%;
 
+
 }
 .header-right{
 	display: -webkit-flex;
@@ -140,6 +141,7 @@ select{
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
+	min-width: 200px;
 }
 .header-nav{
 	display: -webkit-flex;
@@ -151,7 +153,7 @@ select{
 	-ms-align-items: center;
 	align-items: center;
 	margin-right: auto;
-	padding-left: 60px;
+	padding-left: 20px;
 }
 .home,
 .women,
@@ -357,7 +359,7 @@ select{
 .new-product{
 	max-width:233px ;
 	background-color: #eff1f0;
-	width: 33%;
+	
 }
 
 .main-content-right{
@@ -523,8 +525,41 @@ select{
 	padding-bottom: 60px;
 	color:#fff;
 }
-
-
+.middle-card-2-up, .middle-card-2-down{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding-bottom: 30px;	
+	color: #fff;
+}
+.up-pic, .down-pic{
+	padding-right: 10px;
+}
+.up-pic img{
+	max-width: 50px;
+}
+.down-pic img{
+	max-width: 50px;
+}
+.inf-list{
+	color: #fff;
+}
+.cont-text{
+	color:#fff;
+}
+.cont-icons img{
+	max-width: 40px;
+}
+.cont-icons{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding-top: 35px;
+}
 
 
 /* end */
