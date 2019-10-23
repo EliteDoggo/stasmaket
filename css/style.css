@@ -633,6 +633,10 @@ select{
 	}
 	.featured-products, .staff-picks, .new-products{
 		justify-content: space-around;
+		
+	}
+	.featured-product, .staff-pick, .new-product{
+		margin-bottom:  20px;
 	}
 	.footer-up{
 		justify-content: space-between;
@@ -641,21 +645,21 @@ select{
 	}
 	.up-left{
 		order: -1;
-		padding-left: 20px;
+	
 	}
 	.up-right{
 		padding-top: 10px;
-		padding-left: 20px;
+		
 	}
 	.footer-middle{
-		justify-content: space-around;
+		justify-content: space-between;
 		display: flex;
 		flex-wrap: wrap;
 
 	}
 	.middle-card{
-		padding-left: 30px;
-		max-width: 270px;
+		
+		max-width: 285px;
 		padding-bottom: 20px;
 		
 		
