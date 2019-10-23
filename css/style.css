@@ -645,22 +645,25 @@ select{
 	}
 	.up-left{
 		order: -1;
-	
+		padding-left: 30px;
 	}
 	.up-right{
 		padding-top: 10px;
-		
+		padding-left: 30px;
 	}
 	.footer-middle{
 		justify-content: space-between;
 		display: flex;
 		flex-wrap: wrap;
+		
 
 	}
 	.middle-card{
-		
-		max-width: 285px;
+		padding-left: 30px;
+		max-width: 270px;
 		padding-bottom: 20px;
+		
+		
 		
 		
 	}
