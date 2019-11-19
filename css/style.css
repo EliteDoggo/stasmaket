@@ -602,7 +602,7 @@ select{
 
 /* media */
 
-@media screen and (min-width:100px) and (max-width:980px) {
+@media screen and (max-width:1170px) {
 	.container{
 		max-width: 766px;
 	}
@@ -676,4 +676,75 @@ select{
 		order: 1;
 	}
 }
+
+
+
 /* end */
+
+@media (max-width: 740px) {
+	.before-header{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.before-header-left{
+		flex-basis: 100%;
+	}
+	.before-header-right{
+		padding-top: 20px;
+		flex-basis: 100%;
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	
+	.header-left{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.header-nav{
+		padding: 0;
+		margin: 0;
+		padding-top: 20px;
+
+	}
+	.home{
+		padding-left: 0;
+	}
+	.before-header-right a{
+		margin-bottom:  20px;
+	}
+	
+	
+	.cart-fill{
+		display: none;
+	}
+	.main-content{
+		flex-wrap: wrap;
+	}
+	.left-text,.right-text{
+		display: flex;
+		font-size: 16px;
+	}
+	.up-left,.up-right{
+		min-width: 100%;
+	}
+	.featured-products-text{
+		text-align: center;
+	}
+	.main-content-right{
+	
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.featured-glass-pic img{
+			max-width: 100%;
+		width: 100%;
+		padding: 60px;
+	}
+	.check-it-out{
+		left:33%;
+		top:60%;
+	}
+}
